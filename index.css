@@ -178,7 +178,9 @@ transform: translate(1190px,-2023px);
     font-size: 30px;
     font-family: sans-serif;
     text-align: justify;
-    white-space: wrap;
+    white-space: normal;
+    max-width: 100%;
+    word-wrap: break-word;
     transform: translate(30px,-860px);
 }
 
