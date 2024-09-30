@@ -2,7 +2,6 @@
     font-family: sans-serif, Arial;
     color: #c9f7ef;
 }
-
 .banner {
     background-color: #182b28;
     height: 140px;
@@ -20,13 +19,11 @@
     cursor: pointer;
     position: relative;
     z-index: 2;
-    transform: translate(1150px,-113px);
+    transform: translate(1085px,-113px);
 }
-
 .navigation a {
     text-decoration: none;
 }
-
 .titulo {
     color: white;
     font-size: 40px;
@@ -37,7 +34,6 @@
     gap: 14px;
     transform: translate(0px,-195px);
 } 
-
 .sesion-button {
     color: white;
     font-family: sans-serif;
@@ -49,7 +45,6 @@
     background-color: #4b7773;
     transform: translate(3500px,-1855px);
 }
-
 .education {
     background-color: #4b7773;
     height: 350px;
@@ -59,8 +54,6 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transform: translate(27px,-980px);
 }
-
-
 .solicitudes {
 background-color: #4b7773;
 height: 300px;
@@ -69,7 +62,7 @@ border-radius: 12px;
 position: relative;
 z-index: 0;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-transform: translate(1190px,-2030px);
+transform: translate(1190px,-2021px);
 }
 .missolicitudes li{
     font-size: 30px;
@@ -81,15 +74,13 @@ transform: translate(1190px,-2030px);
     font-weight: bold;
     position: absolute;
 }
-
 .solicitudes li {
     font-size: 27px;
     padding: 40px;
     font-family: sans-serif;
     list-style-type: none;
-    transform: translate(85px,74px);
+    transform: translate(85px,50px);
 }
-
 .avisos {
     list-style-type: none;
     display: flex;
@@ -98,7 +89,6 @@ transform: translate(1190px,-2030px);
     font-size: 25px;
     transform: translate(-10px,10px);
 }
-
 .connections {
     background-color: #4b7773;
     height: 804px;
@@ -109,7 +99,6 @@ transform: translate(1190px,-2030px);
     z-index: 0;
     transform: translate(1190px,-2010px);
 }
-
 .connections li {
     list-style-type: none;
     font-size: 30px;
@@ -118,7 +107,6 @@ transform: translate(1190px,-2030px);
     position: relative;
     transform: translate(0px,30px);
 }
-
 .cover {
     background-color: #2f4846;
     height: 340px;
@@ -127,7 +115,6 @@ transform: translate(1190px,-2030px);
     border-top-right-radius: 12px;
     transform: translate(40px,0px);
 }
-
 .background {
     background-color: #4b7773;
     height: 600px;
@@ -137,7 +124,6 @@ transform: translate(1190px,-2030px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transform: translate(40px,-190px);
 }
-
 .image {
     background-image: 10px;
     height: 190px;
@@ -146,14 +132,12 @@ transform: translate(1190px,-2030px);
     border: 8px solid #4b7773;
     transform: translate(80px,-880px);
 }
-
 .userName {
     font-family: sans-serif;
     font-weight: 600;
     font-size: 35px;
     transform: translate(70px,-860px);
 }
-
 .biography {
     list-style: none;
     display: flex;
@@ -162,7 +146,6 @@ transform: translate(1190px,-2030px);
     text-align: justify;
     transform: translate(30px,-860px);
 }
-
 .edit-profile {
     border-radius: 12px;
     padding: 15px;
@@ -173,12 +156,10 @@ transform: translate(1190px,-2030px);
     cursor: pointer;
     transform: translate(75px,-850px);
 }
-
 .container {
     position: relative;
     top: -115px;
 }
-
 .container2 {
     position: relative;
     top: -110px;
@@ -192,7 +173,6 @@ transform: translate(1190px,-2030px);
     opacity: 100%;
     transform: translate(0px,40px);
 }
-
 .second-list {
     transform: translate(0px,80px);
     font-size: 30px;
@@ -203,7 +183,6 @@ transform: translate(1190px,-2030px);
     flex-direction: column;
     list-style-type: none;
 }
-
 .second-list li {
     margin-bottom: 15px;
 }
@@ -215,7 +194,6 @@ transform: translate(1190px,-2030px);
     border-radius: 50%;
     transform: translate(1200px,-4540px);
 }
-
 .lagente p {
     transform: translate(-20px,275px);
 }
@@ -228,7 +206,6 @@ transform: translate(1190px,-2030px);
     padding: 50px;
     transform: translate(1260px,-2738px);
 }
-
 .gente {
     background-image: 10px;
     height: 60px;
@@ -238,7 +215,6 @@ transform: translate(1190px,-2030px);
     border-color: #000;
     transform: translate(1200px,-3680px);
 }
-
 .button-container {
     display: flex;
     flex-direction: column;
@@ -255,7 +231,6 @@ transform: translate(1190px,-2030px);
     margin-top: 20px;
     transform: translate(1675px,-4920px);
 }
-
 .round-button {
     width: 50px;
     height: 50px;
@@ -269,8 +244,9 @@ transform: translate(1190px,-2030px);
     border: 4px solid #233937;
     background-color: #0000;
 }
-
 .reject {
 background-color: #0000;
 border: 4px solid #233937;
+}
+@media (max-width: 500px) {
 }
